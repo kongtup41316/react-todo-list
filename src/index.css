@@ -1,5 +1,13 @@
+@font-face {
+  font-family: BBH;
+  src: url("../src/assets/fonts/BBHBogle-Regular.ttf");
+}
 @import "tailwindcss";
 @import "tw-animate-css";
+
+@theme{
+  --font-bbh: BBH, "sanserif";
+}
 
 @custom-variant dark (&:is(.dark *));
 
