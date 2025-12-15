@@ -18,7 +18,7 @@ function App() {
             placeholder="Password"
             className="h-8 px-2 py-1 text-sm w-64 mt-5"
           />
-          <Button className="mt-10">Submit</Button>
+          <Button className="mt-10 hover:bg-red-800 transition-colors duration-300">Submit</Button>
         </div>
       </main>
     </div>
